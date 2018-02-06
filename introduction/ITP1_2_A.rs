@@ -3,7 +3,7 @@ fn main() {
 	let mut s = String::new();
 	stdin.read_line(&mut s).unwrap();
 	
-	let input = s.trim().split(" ").collect::<Vec<_>>();
+	let input = s.trim().split(" ").collect::<Vec<i32>>();
 	let a = input[0];
 	let b = input[1];
 	
